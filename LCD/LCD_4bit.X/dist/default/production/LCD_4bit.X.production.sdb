@@ -1,0 +1,252 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"130 C:\Users\ASUS\Documents\MPLAB XC8\PIC16F877A\LCD_4bit.X\LCD_4bit.c
+[v _command command `(v  1 e 1 0 ]
+"138
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"150
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+"172
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"257
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+"275
+[v _lcd_CGRAM lcd_CGRAM `(v  1 e 1 0 ]
+"304
+[v _lcd_CGRAM2 lcd_CGRAM2 `(v  1 e 1 0 ]
+"333
+[v _lcd_CGRAM3 lcd_CGRAM3 `(v  1 e 1 0 ]
+"362
+[v _lcd_CGRAM4 lcd_CGRAM4 `(v  1 e 1 0 ]
+"391
+[v _lcd_CGRAM5 lcd_CGRAM5 `(v  1 e 1 0 ]
+"420
+[v _lcd_CGRAM6 lcd_CGRAM6 `(v  1 e 1 0 ]
+"450
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2677
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2680
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2683
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"77 C:\Users\ASUS\Documents\MPLAB XC8\PIC16F877A\LCD_4bit.X\LCD_4bit.c
+[v _xengang1 xengang1 `[8]uc  1 e 8 0 ]
+"78
+[v _xengang2 xengang2 `[8]uc  1 e 8 0 ]
+"80
+[v _xengang4 xengang4 `[8]uc  1 e 8 0 ]
+"81
+[v _xengang6 xengang6 `[8]uc  1 e 8 0 ]
+"82
+[v _xengang8 xengang8 `[8]uc  1 e 8 0 ]
+"84
+[v _xengang3 xengang3 `[8]uc  1 e 8 0 ]
+"85
+[v _xengang5 xengang5 `[8]uc  1 e 8 0 ]
+"86
+[v _xengang7 xengang7 `[8]uc  1 e 8 0 ]
+"87
+[v _xengang9 xengang9 `[8]uc  1 e 8 0 ]
+"88
+[v _xengang10 xengang10 `[8]uc  1 e 8 0 ]
+"90
+[v _xedoc3 xedoc3 `[8]uc  1 e 8 0 ]
+"91
+[v _xedoc4 xedoc4 `[8]uc  1 e 8 0 ]
+"92
+[v _xedoc5 xedoc5 `[8]uc  1 e 8 0 ]
+"94
+[v _xedoc6 xedoc6 `[8]uc  1 e 8 0 ]
+"95
+[v _xedoc8 xedoc8 `[8]uc  1 e 8 0 ]
+"96
+[v _xedoc10 xedoc10 `[8]uc  1 e 8 0 ]
+"97
+[v _xedoc12 xedoc12 `[8]uc  1 e 8 0 ]
+"99
+[v _xedoc7 xedoc7 `[8]uc  1 e 8 0 ]
+"100
+[v _xedoc9 xedoc9 `[8]uc  1 e 8 0 ]
+"101
+[v _xedoc11 xedoc11 `[8]uc  1 e 8 0 ]
+"102
+[v _xedoc13 xedoc13 `[8]uc  1 e 8 0 ]
+"104
+[v _xedoc14 xedoc14 `[8]uc  1 e 8 0 ]
+"106
+[v _xengang11 xengang11 `[8]uc  1 e 8 0 ]
+"107
+[v _xengang12 xengang12 `[8]uc  1 e 8 0 ]
+"109
+[v _xengang14 xengang14 `[8]uc  1 e 8 0 ]
+"110
+[v _xengang16 xengang16 `[8]uc  1 e 8 0 ]
+"111
+[v _xengang18 xengang18 `[8]uc  1 e 8 0 ]
+"113
+[v _xengang13 xengang13 `[8]uc  1 e 8 0 ]
+"114
+[v _xengang15 xengang15 `[8]uc  1 e 8 0 ]
+"115
+[v _xengang17 xengang17 `[8]uc  1 e 8 0 ]
+"116
+[v _xengang19 xengang19 `[8]uc  1 e 8 0 ]
+"118
+[v _dan1 dan1 `[8]uc  1 e 8 0 ]
+"119
+[v _dan2 dan2 `[8]uc  1 e 8 0 ]
+"120
+[v _dan3 dan3 `[8]uc  1 e 8 0 ]
+"121
+[v _dan4 dan4 `[8]uc  1 e 8 0 ]
+"122
+[v _dan5 dan5 `[8]uc  1 e 8 0 ]
+"124
+[v _bomb1 bomb1 `[8]uc  1 e 8 0 ]
+"125
+[v _bomb2 bomb2 `[8]uc  1 e 8 0 ]
+"126
+[v _bomb3 bomb3 `[8]uc  1 e 8 0 ]
+"127
+[v _bomb4 bomb4 `[8]uc  1 e 8 0 ]
+"128
+[v _bomb5 bomb5 `[8]uc  1 e 8 0 ]
+"450
+[v _main main `(v  1 e 1 0 ]
+{
+"453
+[v main@i i `i  1 a 2 19 ]
+"623
+} 0
+"172
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"190
+} 0
+"130
+[v _command command `(v  1 e 1 0 ]
+{
+[v command@a a `uc  1 a 1 wreg ]
+[v command@a a `uc  1 a 1 wreg ]
+"132
+[v command@a a `uc  1 a 1 1 ]
+"135
+} 0
+"257
+[v _lcd_gotoxy lcd_gotoxy `(v  1 e 1 0 ]
+{
+[v lcd_gotoxy@x x `i  1 p 2 2 ]
+[v lcd_gotoxy@y y `i  1 p 2 4 ]
+"273
+} 0
+"420
+[v _lcd_CGRAM6 lcd_CGRAM6 `(v  1 e 1 0 ]
+{
+"422
+[v lcd_CGRAM6@h h `i  1 a 2 8 ]
+[v lcd_CGRAM6@g g `i  1 a 2 6 ]
+[v lcd_CGRAM6@f f `i  1 a 2 4 ]
+[v lcd_CGRAM6@e e `i  1 a 2 2 ]
+"447
+} 0
+"391
+[v _lcd_CGRAM5 lcd_CGRAM5 `(v  1 e 1 0 ]
+{
+"393
+[v lcd_CGRAM5@h h `i  1 a 2 14 ]
+[v lcd_CGRAM5@g g `i  1 a 2 12 ]
+[v lcd_CGRAM5@f f `i  1 a 2 10 ]
+[v lcd_CGRAM5@e e `i  1 a 2 8 ]
+[v lcd_CGRAM5@d d `i  1 a 2 6 ]
+[v lcd_CGRAM5@c c `i  1 a 2 4 ]
+[v lcd_CGRAM5@b b `i  1 a 2 2 ]
+[v lcd_CGRAM5@a a `i  1 a 2 0 ]
+"418
+} 0
+"362
+[v _lcd_CGRAM4 lcd_CGRAM4 `(v  1 e 1 0 ]
+{
+"364
+[v lcd_CGRAM4@h h `i  1 a 2 14 ]
+[v lcd_CGRAM4@g g `i  1 a 2 12 ]
+[v lcd_CGRAM4@f f `i  1 a 2 10 ]
+[v lcd_CGRAM4@e e `i  1 a 2 8 ]
+[v lcd_CGRAM4@d d `i  1 a 2 6 ]
+[v lcd_CGRAM4@c c `i  1 a 2 4 ]
+[v lcd_CGRAM4@b b `i  1 a 2 2 ]
+[v lcd_CGRAM4@a a `i  1 a 2 0 ]
+"389
+} 0
+"333
+[v _lcd_CGRAM3 lcd_CGRAM3 `(v  1 e 1 0 ]
+{
+"335
+[v lcd_CGRAM3@h h `i  1 a 2 14 ]
+[v lcd_CGRAM3@g g `i  1 a 2 12 ]
+[v lcd_CGRAM3@f f `i  1 a 2 10 ]
+[v lcd_CGRAM3@e e `i  1 a 2 8 ]
+[v lcd_CGRAM3@d d `i  1 a 2 6 ]
+[v lcd_CGRAM3@c c `i  1 a 2 4 ]
+[v lcd_CGRAM3@b b `i  1 a 2 2 ]
+[v lcd_CGRAM3@a a `i  1 a 2 0 ]
+"360
+} 0
+"304
+[v _lcd_CGRAM2 lcd_CGRAM2 `(v  1 e 1 0 ]
+{
+"306
+[v lcd_CGRAM2@g g `i  1 a 2 12 ]
+[v lcd_CGRAM2@f f `i  1 a 2 10 ]
+[v lcd_CGRAM2@e e `i  1 a 2 8 ]
+[v lcd_CGRAM2@d d `i  1 a 2 6 ]
+[v lcd_CGRAM2@c c `i  1 a 2 4 ]
+[v lcd_CGRAM2@b b `i  1 a 2 2 ]
+[v lcd_CGRAM2@a a `i  1 a 2 0 ]
+"331
+} 0
+"275
+[v _lcd_CGRAM lcd_CGRAM `(v  1 e 1 0 ]
+{
+"277
+[v lcd_CGRAM@h h `i  1 a 2 12 ]
+[v lcd_CGRAM@g g `i  1 a 2 10 ]
+[v lcd_CGRAM@f f `i  1 a 2 8 ]
+[v lcd_CGRAM@e e `i  1 a 2 6 ]
+[v lcd_CGRAM@d d `i  1 a 2 4 ]
+[v lcd_CGRAM@c c `i  1 a 2 2 ]
+"302
+} 0
+"150
+[v _lcd_putc lcd_putc `(v  1 e 1 0 ]
+{
+[v lcd_putc@data data `uc  1 a 1 wreg ]
+[v lcd_putc@data data `uc  1 a 1 wreg ]
+"152
+[v lcd_putc@data data `uc  1 a 1 1 ]
+"159
+} 0
+"138
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@command command `uc  1 a 1 wreg ]
+[v lcd_command@command command `uc  1 a 1 wreg ]
+"140
+[v lcd_command@command command `uc  1 a 1 1 ]
+"147
+} 0
